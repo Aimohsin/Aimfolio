@@ -1,0 +1,22 @@
+
+.txtcenter {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.5;
+    visibility: hidden;
+    &.show{
+        visibility: visible;
+}
+    &-contactf {
+        align-items: center;
+        justify-content: center;
+        float: left;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        background: darken($primary-color, 5);
+    }
+}
